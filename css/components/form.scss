@@ -33,6 +33,7 @@
     border: none;
     padding: 18px 11px;
     border: solid 3px transparent;
+    outline: none;
    
     &--textarea {
         height: 180px;
@@ -41,7 +42,7 @@
 
     &:focus {
         border-color: #dee2bd ;
-        outline: none;
+        
       
        
     }

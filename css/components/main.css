@@ -474,6 +474,7 @@ img {
   border: none;
   padding: 18px 11px;
   border: solid 3px transparent;
+  outline: none;
 }
 .form__input--textarea {
   height: 180px;
@@ -481,7 +482,6 @@ img {
 }
 .form__input:focus {
   border-color: #dee2bd;
-  outline: none;
 }
 
 .form__controls {
