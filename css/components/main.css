@@ -414,6 +414,7 @@ img {
 
 .section-reviews {
   position: relative;
+  z-index: 100;
 }
 .section-reviews:after {
   content: url("../../img/Ягоды 12.png");

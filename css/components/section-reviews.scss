@@ -1,6 +1,6 @@
 .section-reviews {
     position: relative;
-
+    z-index:$z-fixed-menu ;
    
 
     &:after {
