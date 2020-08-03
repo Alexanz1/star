@@ -141,7 +141,7 @@ img {
 }
 
 .phone-number {
-  font-size: 24px;
+  font-size: 22px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -287,6 +287,13 @@ img {
   transform: translate(-50%, -50%);
 }
 
+.benefit__title {
+  font-size: 27px;
+  line-height: 32px;
+  color: #292929;
+  font-weight: bold;
+}
+
 .headline {
   text-align: center;
   margin-bottom: 50px;
@@ -380,6 +387,9 @@ img {
 .interactive-avatar--active {
   border-color: #0f5a47;
 }
+.interactive-avatar:hover {
+  border-color: #0f5a47;
+}
 
 .interactive-avatar__link {
   position: absolute;
@@ -449,7 +459,6 @@ img {
 
 .form__row {
   display: flex;
-  margin-bottom: 18px;
 }
 
 .form__block {
@@ -471,7 +480,7 @@ img {
   resize: none;
 }
 .form__input:focus {
-  border: #dee2bd;
+  border-color: #dee2bd;
   outline: none;
 }
 
