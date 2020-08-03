@@ -1,0 +1,65 @@
+.reviews__display {
+   
+    padding: 50px 45px 34px;
+    margin-bottom: 20px;
+    background:#f8faf9 url("../../img/flower.svg") right top no-repeat ;
+    overflow: hidden;
+    position: relative;
+
+    &:before{
+        content: "";
+        display: block;
+        width: 90px;
+        height: 90px;
+        background: #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: -65px;
+       
+
+    }
+}
+
+.reviews__display-inner {
+    display: flex;
+    
+}
+
+.reviews__avatar {
+    width: 253px;
+    height: 264px;
+   
+}
+
+.reviews__avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews__content {
+   flex: 1; 
+   margin-left: 20px;
+   
+}
+
+.reviews__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: black;
+
+}
+
+.reviews__text {
+    margin-bottom: 36px;
+    width: 76%;
+}
+
+.reviews__author {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}

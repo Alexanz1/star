@@ -1,0 +1,20 @@
+.order-section {
+    position: relative;
+    background: url("../../img/Artboard\ 1.png") center /  cover   no-repeat;
+   
+
+    &::before {
+        content: url("../../img/ягода\ черника\ 1.png");
+        position: absolute;
+        bottom: 70px;
+        left: 50px;
+    }
+
+    &::after{
+        content: url("../../img/лист-правый.png");
+        position: absolute;
+        bottom: 70px;
+        right: 10px;
+
+    }
+}
