@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     font-size: $baseFontssize;
     font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;

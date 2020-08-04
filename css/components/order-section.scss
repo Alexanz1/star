@@ -6,15 +6,15 @@
     &::before {
         content: url("../../img/ягода\ черника\ 1.png");
         position: absolute;
-        bottom: 70px;
-        left: 50px;
+        bottom: 3.9rem;  // 70px
+        left: 2.77rem;  // 50px
     }
 
     &::after{
         content: url("../../img/лист-правый.png");
         position: absolute;
-        bottom: 70px;
-        right: 10px;
+        bottom: 3.9rem;  // 70px
+        right: 0.55rem;  // 10px
 
     }
 }

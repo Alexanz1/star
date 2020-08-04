@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   font-size: 18px;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
@@ -100,21 +104,21 @@ img {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 25px;
+  padding: 1.33rem 0 1.4rem;
   background: url("../../img/Батончики.png") right center/50% auto no-repeat;
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: 2.7rem;
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 0.83rem;
   text-transform: uppercase;
 }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 28px;
+  font-size: 1.2rem;
+  margin-bottom: 1.55rem;
   padding-right: 15%;
 }
 
@@ -130,7 +134,7 @@ img {
 }
 
 .menu__item {
-  margin-right: 27px;
+  margin-right: 1.5rem;
 }
 .menu__item:last-child {
   margin: 0;
@@ -141,16 +145,16 @@ img {
 }
 
 .phone-number {
-  font-size: 22px;
+  font-size: 1.22rem;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
 .phone-number__icon-elem {
-  width: 12px;
-  height: 12px;
-  margin-right: 6px;
+  width: 0.66rem;
+  height: 0.66rem;
+  margin-right: 0.33rem;
 }
 
 .features {
@@ -158,7 +162,7 @@ img {
 }
 
 .features__item {
-  margin-right: 46px;
+  margin-right: 2.5rem;
 }
 .features__item:last-child {
   margin: 0;
@@ -169,22 +173,22 @@ img {
 }
 
 .feature__icon {
-  width: 45px;
-  margin-right: 7px;
+  width: 2.5rem;
+  margin-right: 0.3rem;
 }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 85px;
+  font-size: 0.9rem;
+  max-width: 4.8rem;
 }
 
 .btn {
-  font-size: 16px;
+  font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px 41px;
-  border-radius: 100px;
+  padding: 1.1rem 2.2rem;
+  border-radius: 5.5rem;
   line-height: 1;
   display: inline-block;
   border: none;
@@ -229,9 +233,9 @@ img {
 }
 
 .section__title {
-  font-size: 48px;
+  font-size: 2.66rem;
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: 3.33rem;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -249,7 +253,7 @@ img {
 .benefits__item:before {
   content: url("../../img/Combined shape 2204.png");
   position: absolute;
-  top: 30px;
+  top: 1.7rem;
   right: 0;
   transform: translate(50%);
 }
@@ -269,18 +273,18 @@ img {
 
 .benefit__image-wrapper {
   display: inline-block;
-  width: 126px;
-  height: 126px;
+  width: 7rem;
+  height: 7rem;
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.1rem;
 }
 
 .benefit__icon {
-  width: 75px;
-  height: 69px;
+  width: 4.1rem;
+  height: 4.1rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -288,19 +292,19 @@ img {
 }
 
 .benefit__title {
-  font-size: 27px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   color: #292929;
   font-weight: bold;
 }
 
 .headline {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 2.8rem;
 }
 
 .headline__title {
-  margin-bottom: 38px;
+  margin-bottom: 2.11rem;
 }
 
 .headline__subtitle {
@@ -314,13 +318,13 @@ img {
 .benefits-section:before {
   content: url("../../img/малина 1.png");
   position: absolute;
-  bottom: -80px;
+  bottom: -4.4rem;
   left: 0;
 }
 
 .reviews__display {
-  padding: 50px 45px 34px;
-  margin-bottom: 20px;
+  padding: 2.77rem 2.5rem 1.9rem;
+  margin-bottom: 1.11rem;
   background: #f8faf9 url("../../img/flower.svg") right top no-repeat;
   overflow: hidden;
   position: relative;
@@ -328,8 +332,8 @@ img {
 .reviews__display:before {
   content: "";
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 5rem;
+  height: 5rem;
   background: #ffffff;
   border-radius: 50%;
   position: absolute;
@@ -343,8 +347,8 @@ img {
 }
 
 .reviews__avatar {
-  width: 253px;
-  height: 264px;
+  width: 14.06rem;
+  height: 14.7rem;
 }
 
 .reviews__avatar-img {
@@ -355,31 +359,32 @@ img {
 
 .reviews__content {
   flex: 1;
-  margin-left: 20px;
+  margin-left: 1.11rem;
 }
 
 .reviews__title {
-  font-size: 30px;
+  font-size: 1.66rem;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: 1.22rem;
   color: black;
 }
 
 .reviews__text {
-  margin-bottom: 36px;
+  margin-bottom: 2rem;
   width: 76%;
 }
 
 .reviews__author {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
   color: black;
 }
 
 .interactive-avatar {
-  width: 80px;
-  height: 80px;
-  border: 6px solid transparent;
+  width: 4.44rem;
+  height: 4.44rem;
+  border: 0.33rem solid #0f5a47;
+  border: 0.33rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -419,13 +424,13 @@ img {
 .section-reviews:after {
   content: url("../../img/Ягоды 12.png");
   position: absolute;
-  bottom: -120px;
+  bottom: -6.66rem;
   left: 0;
 }
 .section-reviews::before {
   content: url("../../img/Узор 78.png");
   position: absolute;
-  bottom: -200px;
+  bottom: -11.11rem;
   left: 0;
 }
 
@@ -436,14 +441,14 @@ img {
 .order-section::before {
   content: url("../../img/ягода черника 1.png");
   position: absolute;
-  bottom: 70px;
-  left: 50px;
+  bottom: 3.9rem;
+  left: 2.77rem;
 }
 .order-section::after {
   content: url("../../img/лист-правый.png");
   position: absolute;
-  bottom: 70px;
-  right: 10px;
+  bottom: 3.9rem;
+  right: 0.55rem;
 }
 
 .form {
@@ -452,7 +457,7 @@ img {
 
 .form__col {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 0.9rem;
 }
 .form__col:last-child {
   margin-right: 0;
@@ -464,7 +469,7 @@ img {
 
 .form__block {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 0.9rem;
 }
 .form__block:last-child {
   margin: 0;
@@ -473,12 +478,12 @@ img {
 .form__input {
   width: 100%;
   border: none;
-  padding: 18px 11px;
+  padding: 1rem 1.63rem;
   border: solid 3px transparent;
   outline: none;
 }
 .form__input--textarea {
-  height: 180px;
+  height: 10rem;
   resize: none;
 }
 .form__input:focus {
@@ -491,7 +496,7 @@ img {
 }
 
 .form__btns {
-  margin-top: 40px;
+  margin-top: 2.22rem;
 }
 
 .section__title-logo {
@@ -503,7 +508,7 @@ img {
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
-  padding: 10px 0px;
+  padding: 0.55rem 0px;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -520,17 +525,17 @@ img {
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: 1.44rem;
+  height: 1.44rem;
   position: relative;
   border-radius: 50%;
   background: #ffffff;
-  margin-right: 10px;
+  margin-right: 0.55rem;
 }
 .radio__visible::before {
   content: "";
-  width: 14px;
-  height: 14px;
+  width: 0.77rem;
+  height: 0.77rem;
   background: #365A49;
   border-radius: 50%;
   position: absolute;
@@ -541,7 +546,7 @@ img {
 }
 
 .radio__title {
-  margin-right: 23px;
+  margin-right: 1.3rem;
 }
 
 .fixed-menu {
@@ -552,15 +557,15 @@ img {
 }
 
 .fixed-menu__item {
-  margin-bottom: 5px;
+  margin-bottom: 0.28rem;
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #fff;
 }
 
 .fixed-menu__link {
-  width: 16px;
-  height: 16px;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
   border: 1px solid transparent;
   display: block;
@@ -569,8 +574,8 @@ img {
 .fixed-menu__link::before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 0.33rem;
+  height: 0.33rem;
   border-radius: 50%;
   background: #fff;
   position: absolute;

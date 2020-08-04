@@ -1,7 +1,7 @@
 .reviews__display {
    
-    padding: 50px 45px 34px;
-    margin-bottom: 20px;
+    padding: 2.77rem 2.5rem 1.9rem;  // 50px 45px 34px
+    margin-bottom: 1.11rem;  // 20px
     background:#f8faf9 url("../../img/flower.svg") right top no-repeat ;
     overflow: hidden;
     position: relative;
@@ -9,8 +9,8 @@
     &:before{
         content: "";
         display: block;
-        width: 90px;
-        height: 90px;
+        width: 5rem;  // 90px
+        height: 5rem; // 90px
         background: #ffffff;
         border-radius: 50%;
         position: absolute;
@@ -28,8 +28,8 @@
 }
 
 .reviews__avatar {
-    width: 253px;
-    height: 264px;
+    width: 14.06rem;  // 253px
+    height: 14.7rem;  // 264px
    
 }
 
@@ -41,25 +41,25 @@
 
 .reviews__content {
    flex: 1; 
-   margin-left: 20px;
+   margin-left: 1.11rem; //20px 
    
 }
 
 .reviews__title {
-    font-size: 30px;
+    font-size: 1.66rem;  // 30px
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: 1.22rem;  // 22px
     color: black;
 
 }
 
 .reviews__text {
-    margin-bottom: 36px;
+    margin-bottom: 2rem; // 36px
     width: 76%;
 }
 
 .reviews__author {
-    font-size: 18px;
+    font-size: 1rem;  // 18px
     font-weight: bold;
     color: black;
 }
