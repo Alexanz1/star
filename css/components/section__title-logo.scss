@@ -1,3 +1,10 @@
 .section__title-logo {
-    background: url("../../img/Ягода-3\ 1.svg") right no-repeat;
+    &::after {
+        content: url("../../img/Ягода-3\ 1.svg");
+        position: absolute;
+        top: -0.4rem;
+        right: -2.94rem;  
+        
+    }
+   
 }

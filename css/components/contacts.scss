@@ -1,0 +1,16 @@
+.contacts {
+    font-size: 1.16rem;
+    line-height: 1.33rem; 
+    color: $darkGreen;
+    @include phones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px; 
+    }
+}
+
+.contacts__place {
+    margin-bottom: 0.55rem;
+}
+

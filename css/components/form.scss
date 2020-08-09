@@ -1,5 +1,14 @@
 .form {
     display: flex;
+    @include tablets {
+        flex-direction: column;
+        padding: 0 19%;
+    }
+
+    @include phones {
+        padding: 0 0;
+    }
+
 }
 
 .form__col {
@@ -7,6 +16,10 @@
     margin-right: 0.9rem;  // 20px
 
     &:last-child {
+        margin-right: 0;
+    }
+
+    @include tablets{
         margin-right: 0;
     }
 }
@@ -34,6 +47,11 @@
     padding: 1rem 1.63rem;  // 18px 11px
     border: solid 3px transparent;
     outline: none;
+
+    @include tablets {
+        padding:0.27rem 0.27rem;
+        margin-bottom: 0.77rem;
+    }
    
     &--textarea {
         height: 10rem;  // 180px
@@ -43,8 +61,7 @@
     &:focus {
         border-color: #dee2bd ;
         
-      
-       
+        
     }
 
     
@@ -53,9 +70,16 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
+    @include phones {
+        justify-content: center;
+    }
 }
 
 .form__btns {
     margin-top: 2.22rem;  // 40px
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
    
 }

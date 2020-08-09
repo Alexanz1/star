@@ -8,6 +8,10 @@
         position: absolute;
         bottom: 3.9rem;  // 70px
         left: 2.77rem;  // 50px
+        @include tablets {
+            display: none;
+        }
+        
     }
 
     &::after{
@@ -15,6 +19,8 @@
         position: absolute;
         bottom: 3.9rem;  // 70px
         right: 0.55rem;  // 10px
-
+        @include tablets {
+            display: none;
+        }
     }
 }

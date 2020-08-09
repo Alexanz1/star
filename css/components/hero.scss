@@ -1,11 +1,20 @@
 .hero {
 background: 
-url("../../img/узор\ 1.png") right bottom no-repeat;
+url("../../img/узор\ 2.png") right bottom  no-repeat;
 background-color: $blue;
 height: 100vh;
 min-height: 650px;
 color: #ffffff;
 position: relative;
+@include tablets {
+    background-position: right bottom 108% ;
+}
+
+&::before, &::after {
+    @include tablets {
+        display: none;
+    }
+}
 
 &:before {
     position: absolute;
@@ -24,6 +33,30 @@ position: relative;
 
 .hero__title-section {
     width: 46%;
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &::before {
+            content: "" ;
+            margin-bottom: 1.72rem;
+            width: 17.55rem;
+            height: 18.33rem;
+            background: url("../../img/ягоды\ и\ батончики.png") center center / contain no-repeat;
+        }
+    }
+}
+
+.hero__icon-section {
+    @include tablets {
+       display: none; 
+     
+    }
 }
 
 .hero__container {
@@ -33,6 +66,9 @@ position: relative;
     height: 100%;
     padding: 1.33rem 0 1.4rem;  // 24px 0 25px
     background:  url("../../img/Батончики.png")right center / 50% auto no-repeat ;
+    @include tablets {
+        background: none; 
+     }
 }
 
 .hero__main-title {
@@ -47,5 +83,13 @@ position: relative;
     font-size: 1.2rem;  // 21px
     margin-bottom: 1.55rem;  // 28px
     padding-right: 15%;
+
+    @include tablets {
+       padding: 0 23%; 
+    }
+
+    @include phones {
+        padding: 0px 12%;;
+    }
 
 }

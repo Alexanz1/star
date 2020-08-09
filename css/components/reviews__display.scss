@@ -6,6 +6,10 @@
     overflow: hidden;
     position: relative;
 
+    @include tablets {
+        margin-bottom: 3.11rem;
+    }
+   
     &:before{
         content: "";
         display: block;
@@ -17,19 +21,31 @@
         left: 50%;
         transform: translate(-50%);
         top: -65px;
-       
 
     }
 }
 
 .reviews__display-inner {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+       
+    }
     
 }
 
 .reviews__avatar {
     width: 14.06rem;  // 253px
     height: 14.7rem;  // 264px
+
+    @include tablets {
+        width: 7.22rem;  // 130px
+        height: 7.33rem;  // 132px
+        margin-bottom: 1.38rem; //25px
+    }
    
 }
 
@@ -56,10 +72,17 @@
 .reviews__text {
     margin-bottom: 2rem; // 36px
     width: 76%;
+
+    @include tablets {
+        width: 90%;
+        margin-bottom: 0.88rem;
+    }
 }
 
 .reviews__author {
     font-size: 1rem;  // 18px
     font-weight: bold;
     color: black;
+
+    
 }
