@@ -5,5 +5,7 @@
 
 .socials__list {
  margin-right: 10px;
-
+  &:last-child {
+      margin: 0;
+  }
 }

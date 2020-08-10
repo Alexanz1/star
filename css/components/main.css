@@ -295,6 +295,9 @@ img {
     padding: 0;
     margin-bottom: 1.05rem;
   }
+  .benefits__item:last-child {
+    margin: 0;
+  }
 }
 .benefits__item:before {
   content: url("../../img/Combined shape 2204.png");
@@ -463,7 +466,6 @@ img {
 
 .reviews__content {
   flex: 1;
-  margin-left: 1.11rem;
 }
 
 .reviews__title {
@@ -860,4 +862,7 @@ img {
 
 .socials__list {
   margin-right: 10px;
+}
+.socials__list:last-child {
+  margin: 0;
 }
