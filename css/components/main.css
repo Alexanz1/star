@@ -798,6 +798,9 @@ img {
   flex-direction: column;
   justify-content: space-between;
   display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 @media screen and (max-width: 768px) {
   .hamburger {
