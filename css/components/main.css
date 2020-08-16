@@ -871,15 +871,15 @@ img {
 }
 
 .overlay-menu {
+  position: fixed;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   background-color: #61c4d9;
   margin-left: 0;
-  z-index: 10;
+  z-index: 10000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -901,6 +901,13 @@ img {
 
 .overlay-menu .menu__list {
   flex-direction: column;
+}
+
+.overlay__menu-btn {
+  display: block;
+  position: fixed;
+  top: 13.88rem;
+  left: 13.88rem;
 }
 
 .arrows {

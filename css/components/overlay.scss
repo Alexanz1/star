@@ -1,21 +1,20 @@
   
 .overlay-menu {
-    
+    position: fixed;
    position: absolute;
    top: 0;
    left: 0;
    height: 100%;
    width: 100%;
-  opacity: 0;
+ 
     background-color: $blue;
     margin-left: 0;
-    z-index: 10;
+    z-index: 10000;
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: center;
-
-  
+ 
 }
 
 
@@ -36,4 +35,11 @@
 
 } 
 
+.overlay__menu-btn {
+   display: block;
+   position: fixed;
+   top: 13.88rem;
+   left: 13.88rem;
+   
+}
 
