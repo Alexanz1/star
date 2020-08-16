@@ -870,17 +870,35 @@ img {
   margin: 0;
 }
 
-.overlay {
+.overlay-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
-  background: black;
+  opacity: 0;
+  background-color: #61c4d9;
+  margin-left: 0;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 0;
+  align-items: center;
 }
 
-.overlay-menu {
-  display: block;
+.overlay-menu .menu__link {
+  font-size: 1.22rem;
+  color: #ffffff;
+}
+
+.overlay-menu .menu__item {
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+.overlay-menu .menu__item:last-child {
+  margin: 0;
+}
+
+.overlay-menu .menu__list {
   flex-direction: column;
 }
