@@ -1,0 +1,25 @@
+.specifications {
+    margin-top: 27px; 
+}
+    .specifications__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     justify-content: flex-start;
+          
+    }
+
+    .specifications__title {
+      font-size: 16px;
+      color: #666666; 
+    }
+
+    .specifications__value {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000000; 
+    }
+
+    .specifications__weight {
+      margin-left: 86px; 
+    }

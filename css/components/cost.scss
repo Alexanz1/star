@@ -1,0 +1,16 @@
+.cost__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 24px; 
+}
+  
+  .cost__value {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #151515; 
+}
+  
+  .cost__cost {
+    margin-right: 13px; 
+}
