@@ -905,9 +905,9 @@ img {
 
 .overlay__menu-btn {
   display: block;
-  position: fixed;
-  top: 13.88rem;
-  left: 13.88rem;
+  position: absolute;
+  top: 13.38rem;
+  left: 13.38rem;
 }
 
 .arrows {
