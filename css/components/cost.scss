@@ -9,6 +9,12 @@
     font-size: 36px;
     text-transform: uppercase;
     color: #151515; 
+
+    @include tablets {
+      font-size: 60px;
+      margin-right: 0.83rem;
+      }
+    
 }
   
   .cost__cost {

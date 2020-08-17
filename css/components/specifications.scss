@@ -12,6 +12,7 @@
     .specifications__title {
       font-size: 16px;
       color: #666666; 
+      
     }
 
     .specifications__value {
@@ -21,5 +22,9 @@
     }
 
     .specifications__weight {
-      margin-left: 86px; 
+      margin-left: 4.77rem; 
+      @include tablets {
+        margin-left: 1.94rem; 
+      }
+     
     }

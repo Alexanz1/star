@@ -8,6 +8,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer; 
+
+    @include tablets {
+      display: none;
+    }
 }
     .gear:hover {
       background: #6E6E6E; 
