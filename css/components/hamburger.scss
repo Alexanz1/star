@@ -1,4 +1,4 @@
-.hamburger {
+.burger {
     width: 24px;
     height: 20px;
     flex-direction: column;
@@ -18,9 +18,18 @@
 
 
 
-.hamburger__plank {
+.burger__plank {
     display: block;
     background: #ffffff;
     height: 4px;
     border-radius: 10px;
 }
+
+
+
+.burger--active{ 
+      
+       opacity: 0;
+     
+  }
+  

@@ -364,15 +364,15 @@
             <li class="fixed-menu__item"><a href="#" class="fixed-menu__link"></a></li>
         </ul>
     </nav>
-    <a href="#" class="hamburger ">
-        <span class="hamburger__plank"></span>
-        <span class="hamburger__plank"></span>
-        <span class="hamburger__plank"></span>
+    <a href="#" class="burger ">
+        <span class="burger__plank"></span>
+        <span class="burger__plank"></span>
+        <span class="burger__plank"></span>
     </a>
     <div class="overlay" id="overlay" style="display: none;" >
         <div class="overlay__menu " id="overlay__menu">
-            <nav class="menu   overlay-menu" >
-                <ul class="menu__list ">
+            <nav class="menu  overlay-menu" >
+                <ul class="menu__list  ">
                     <li class="menu__item"> <a href="#" class="menu__link"> О нас</a></li>
                     <li class="menu__item"> <a href="#" class="menu__link">Батончики</a></li>
                     <li class="menu__item"> <a href="#" class="menu__link">Команда</a></li>
@@ -387,17 +387,45 @@
         
     </div>
     <script>
-    const hamburger = document.querySelector('.hamburger');
-        const dropdown = document.querySelector('.overlay ');
-        const closeBtn = document.querySelector('.overlay__menu-btn');
-        hamburger.addEventListener('click', function () {
+    const burger  = document.querySelector('.burger');
+        const overlay = document.querySelector('.overlay ');
+         const body = document.querySelector('.overlay__menu-btn');
+
+         let links = document.querySelectorAll('.menu__link');
+
+links.forEach(function(element){
+  element.addEventListener('click' , toggleMenu);
+})
+
+function toggleMenu(){
+  burger.classList.toggle('burger--active');
+  overlay.classList.toggle('overlay--active');
+ 
+}
+
+burger.addEventListener('click' , toggleMenu);
+
+burger.addEventListener('click', function () {
+    overlay.style.display === 'none' ? overlay.style.display = 'flex' : overlay.style.display = "none";
+        });
+
+        body.addEventListener('click', function() {
+            overlay.style.display === "flex" ? overlay.style.display = "none" : overlay.style.display = 'flex';
+        });
+
+        
+      /*   hamburger.addEventListener('click', function () {
           dropdown.style.display === 'none' ? dropdown.style.display = 'flex' : dropdown.style.display = "none";
         });
+        
         closeBtn.addEventListener('click', function() {
           dropdown.style.display === "flex" ? dropdown.style.display = "none" : dropdown.style.display = 'flex';
         });
+         */
+      
 
-    
+
+
         </script>
     
       

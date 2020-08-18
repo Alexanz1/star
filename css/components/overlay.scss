@@ -6,7 +6,7 @@
    left: 0;
    height: 100%;
    width: 100%;
- 
+  
     background-color: #292929;
     margin-left: 0;
     z-index: 10000;
@@ -32,10 +32,11 @@
     
 .overlay-menu .menu__list {
     flex-direction: column;
+   
 
 } 
 
-.overlay__menu-btn {
+ .overlay__menu-btn {
   display: block;
 position: absolute;
 top:10px ;
@@ -47,5 +48,15 @@ border: none;
 
    
 }
+ 
 
+  
 
+  
+.overlay--active{
+    left: 0;
+    opacity:1; 
+
+  }
+  
+ 

@@ -792,7 +792,7 @@ img {
   white-space: nowrap;
 }
 
-.hamburger {
+.burger {
   width: 24px;
   height: 20px;
   flex-direction: column;
@@ -803,16 +803,20 @@ img {
   right: 20px;
 }
 @media screen and (max-width: 768px) {
-  .hamburger {
+  .burger {
     display: inline-flex;
   }
 }
 
-.hamburger__plank {
+.burger__plank {
   display: block;
   background: #ffffff;
   height: 4px;
   border-radius: 10px;
+}
+
+.burger--active {
+  opacity: 0;
 }
 
 .map-section {
@@ -912,6 +916,11 @@ img {
   height: 25px;
   background: #292929;
   border: none;
+}
+
+.overlay--active {
+  left: 0;
+  opacity: 1;
 }
 
 .arrows {
