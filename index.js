@@ -20,7 +20,7 @@ burger.addEventListener('click', function () {
     overlay.style.display === 'none' ? overlay.style.display = 'flex' : overlay.style.display = "none";
         });
 
-        body.addEventListener('click', function() {
+        body.addEventListen('click', function() {
             overlay.style.display === "flex" ? overlay.style.display = "none" : overlay.style.display = 'flex';
         });
 

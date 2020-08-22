@@ -7,6 +7,7 @@
    position: fixed;
    top: 20px;
    right: 20px;
+   z-index:$z-fixed-menu ;
 
     @include tablets {
         display: inline-flex;
@@ -26,7 +27,7 @@
 
     &:nth-child(2){
         top:50%;
-        transform:translateY(-50%);
+        
         
       }
       
@@ -41,6 +42,7 @@
     .burger__plank{
       &:nth-child(1){
         opacity:0;
+        left: -100%;
       }
       
       &:nth-child(2){
