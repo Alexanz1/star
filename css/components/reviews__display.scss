@@ -25,8 +25,11 @@
     }
 }
 
+
 .reviews__display-inner {
     display: flex;
+  
+   
 
     @include tablets {
         flex-direction: column;
@@ -40,6 +43,7 @@
 .reviews__avatar {
     width: 14.06rem;  // 253px
     height: 14.7rem;  // 264px
+    margin-right: 2.22rem;
 
     @include tablets {
         width: 7.22rem;  // 130px
@@ -85,4 +89,28 @@
     color: black;
 
     
+}
+
+.reviews__item.active {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+}
+
+
+.reviews__item {
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+    opacity: 0;
+   margin-bottom: 3.05rem;
+}
+
+
+.reviews__list {
+    position: relative;
+    min-height: 280px;
 }

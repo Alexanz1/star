@@ -20,7 +20,7 @@ burger.addEventListener('click', function () {
     overlay.style.display === 'none' ? overlay.style.display = 'flex' : overlay.style.display = "none";
         });
 
-        body.addEventListen('click', function() {
+        burger.addEventListener('click', function () {
             overlay.style.display === "flex" ? overlay.style.display = "none" : overlay.style.display = 'flex';
         });
 
@@ -33,4 +33,22 @@ burger.addEventListener('click', function () {
           dropdown.style.display === "flex" ? dropdown.style.display = "none" : dropdown.style.display = 'flex';
         });
          */
-      
+
+         const findBlockByAlias = alias => {
+         return  $(".reviews__item ").filter((ndx, item) => {
+            return $(item).attr("data-linked-with") == alias;
+          });
+         };
+
+       $(".interactive-avatar__link").click((e) => {
+          e.preventDefault();
+
+          const $this = $(e.currentTarget);
+          const target = $this.attr("data-open");
+          const itemToShow = findBlockByAlias(target);
+          const curItem = $this.closest(".reviews__switcher-item");
+
+          itemToShow.addClass("active").siblings().removeClass("active");
+          curItem.addClass("active").siblings().removeClass("active");
+       });
+    

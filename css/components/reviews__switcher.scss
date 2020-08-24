@@ -2,3 +2,18 @@
     display: flex;
     justify-content: center;
 }
+
+
+.reviews__switcher-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.reviews__switcher-item.active {
+    border-color: #0f5a47 ;
+} 

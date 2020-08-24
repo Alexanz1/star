@@ -125,45 +125,86 @@
                     <h2 class="section__title section__title-logo">Отзывы</h2>
                     <div class="reviews  ">
                         <div class="reviews__display ">
-                            <div class="reviews__display-inner ">
-                                <div class="reviews__avatar">
-                                    <img src="./img/Rectangle 7.jpg" alt="Rectangle gerl" class="reviews__avatar-img">
-                                </div>
-                                <article class="reviews__content">
-                                    <h3 class="reviews__title">Лучший перекус</h3>
-                                    <div class="reviews__text">
-                                        <p>Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В
-                                            течение дня сижу за компьютером и часто отходить в кафе или на кухню просто
-                                            не могу себе позволить. А батончик – он всегда под рукой. Это приятно и
-                                            удобно. </p>
+
+                            <ul class="reviews__list">
+                                <li class="reviews__item active "   data-linked-with="one">
+                                    <div class="reviews__display-inner ">
+                                        <div class="reviews__avatar">
+                                            <img src="./img/Rectangle 7.jpg" alt="Rectangle gerl" class="reviews__avatar-img">
+                                        </div>
+                                        <article class="reviews__content">
+                                            <h3 class="reviews__title">Лучший перекус</h3>
+                                            <div class="reviews__text">
+                                                <p>Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В
+                                                    течение дня сижу за компьютером и часто отходить в кафе или на кухню просто
+                                                    не могу себе позволить. А батончик – он всегда под рукой. Это приятно и
+                                                    удобно. </p>
+                                            </div>
+                                            <div class="reviews__author">
+                                                Алёна Хмельницкая
+                                            </div>
+                                        </article>
                                     </div>
-                                    <div class="reviews__author">
-                                        Алёна Хмельницкая
+                                </li>
+                                <li class="reviews__item " data-linked-with="two">
+                                    <div class="reviews__display-inner " >
+                                        <div class="reviews__avatar">
+                                            <img src="./img/Rectangle 99.jpg" alt="Rectangle gerl" class="reviews__avatar-img">
+                                        </div>
+                                        <article class="reviews__content">
+                                            <h3 class="reviews__title">Идеально подходят для спортсменов</h3>
+                                            <div class="reviews__text">
+                                                <p>После тренировок всегда хочется быстро закинуться чем-то белковым, потому что до дома ещё нужно доехать. А кушать хочется. Протеиновые батончики всегда выручают в этом плане. Спасибо производителю за этот качественный и экологичный продукт.  </p>
+                                            </div>
+                                            <div class="reviews__author">
+                                                Вадим Грачев
+
+                                            </div>
+                                        </article>
                                     </div>
-                                </article>
-                            </div>
+                                </li>
+                                <li class="reviews__item  " data-linked-with="three">
+                                    <div class="reviews__display-inner " >
+                                        <div class="reviews__avatar">
+                                            <img src="./img/Rectangle 88.jpg" alt="Rectangle gerl" class="reviews__avatar-img">
+                                        </div>
+                                        <article class="reviews__content">
+                                            <h3 class="reviews__title">Лучшие батончики премиум уровня</h3>
+                                            <div class="reviews__text">
+                                                <p>Батончики понравились. На мой взгляд слегка завышена цена по сравнению с конкурентами, однако, как говорится – оно того стоит. Нравится носить с собой, нравится держать в руке. Ну и конечно же, кушать. Идеально утоляют голод, хоть и не надолго. Через час уже ем ещё один. Но это скорее плюс, чем минус. </p>
+                                            </div>
+                                            <div class="reviews__author">
+                                                Мария Орлова
+                                            </div>
+                                        </article>
+                                    </div>
+                                </li>
+                                
+                            </ul>
                         </div>
-                        <ul class="reviews__switcher">
-                            <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
-                                <a href="" class="interactive-avatar__link">
+                       
+                            <ul class="reviews__switcher ">
+                            <li class="reviews__switcher-item interactive-avatar active">
+                                <a href="" class="interactive-avatar__link " data-open="one" >
                                     <img src="./img/Rectangle 7.jpg"
                                     alt="Rectangle interactive" class="interactive-avatar__img">
                                 </a>
                             </li>
-                            <li class="reviews__switcher-item interactive-avatar">
-                                <a href="" class="interactive-avatar__link">
+                            <li class="reviews__switcher-item   interactive-avatar">
+                                <a href="" class="interactive-avatar__link" data-open="two" >
                                     <img src="./img/Rectangle 99.jpg"
                                         alt="Rectangle interactive" class="interactive-avatar__img">
                                 </a>
                             </li>
-                            <li class="reviews__switcher-item interactive-avatar">
-                                <a href="" class="interactive-avatar__link">
+                            <li class="reviews__switcher-item  interactive-avatar ">
+                                <a href="" class="interactive-avatar__link" data-open="three" >
                                     <img src="./img/Rectangle 88.jpg"
                                         alt="Rectangle interactive" class="interactive-avatar__img">
                                 </a>
                             </li>
-                        </ul>
-                    </div>
+                          
+                          </ul>
+                    
                 </div>
             </section>
             <section class="section order-section section--font--color--green  ">
@@ -349,6 +390,96 @@
                   </div>
               </div> 
               </section>
+              <section class="section team-section">
+                 <div class="container">
+                     <div class="section__title">Команда</div>
+                     <ul class="team team--version--desktop">
+                         <li class="team__item">
+                             <div class="team__member"><img src="./img/Boris 4.png" alt="" class="team__member-img"></div>
+                             <button class="team__title" type="button">Борис Федорович</button>
+                             <div class="team__content">
+                                 <div class="team__content-block">
+                                     <div class="team__occ">Оператор</div>
+                                     <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                 </div>
+                             </div>
+                         </li>
+                         <li class="team__item">
+                            <div class="team__member"><img src="./img/Alla.png" alt="" class="team__member-img"></div>
+                            <button class="team__title" type="button">Алла Иванова</button>
+                            <div class="team__content">
+                                <div class="team__content-block">
+                                    <div class="team__occ">Оператор</div>
+                                    <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                </div>
+                            </div>
+                         </li>
+                         <li class="team__item">
+                            <div class="team__member"><img src="./img/Kirill.png" alt="" class="team__member-img"></div>
+                            <button class="team__title" type="button">Кирилл Матросов</button>
+                            <div class="team__content">
+                                <div class="team__content-block">
+                                    <div class="team__occ">Оператор</div>
+                                    <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                </div>
+                            </div>
+                         </li>
+                         <li class="team__item">
+                            <div class="team__member"><img src="./img/Milla.png" alt="" class="team__member-img"></div>
+                            <button class="team__title" type="button">Мила Рыжкова</button>
+                            <div class="team__content">
+                                <div class="team__content-block">
+                                    <div class="team__occ">Оператор</div>
+                                    <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                </div>
+                            </div>
+                         </li>
+                     </ul> 
+                     <ul class="team team--version--mobile">
+                        
+                            <li class="team__item">
+                                <div class="team__member"><img src="./img/Boris 4.png" alt="" class="team__member-img"></div>
+                                <button class="team__title" type="button">Борис Федорович</button>
+                                <div class="team__content">
+                                    <div class="team__content-block">
+                                        <div class="team__occ">Оператор</div>
+                                        <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team__item">
+                               <div class="team__member"><img src="./img/Alla.png" alt="" class="team__member-img"></div>
+                               <button class="team__title" type="button">Алла Иванова</button>
+                               <div class="team__content">
+                                   <div class="team__content-block">
+                                       <div class="team__occ">Оператор</div>
+                                       <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                   </div>
+                               </div>
+                            </li>
+                            <li class="team__item">
+                               <div class="team__member"><img src="./img/Kirill.png" alt="" class="team__member-img"></div>
+                               <button class="team__title" type="button">Кирилл Матросов</button>
+                               <div class="team__content">
+                                   <div class="team__content-block">
+                                       <div class="team__occ">Оператор</div>
+                                       <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                   </div>
+                               </div>
+                            </li>
+                            <li class="team__item">
+                               <div class="team__member"><img src="./img/Milla.png" alt="" class="team__member-img"></div>
+                               <button class="team__title" type="button">Мила Рыжкова</button>
+                               <div class="team__content">
+                                   <div class="team__content-block">
+                                       <div class="team__occ">Оператор</div>
+                                       <div class="team__content-text">С радостью поможет подобрать батончики и оформить заказ. </div>
+                                   </div>
+                               </div>
+                            </li>
+                     </ul> 
+                 </div> 
+              </section>
         </div>
     </div>
     <nav class="fixed-menu">
@@ -369,8 +500,8 @@
         <span class="burger__plank"></span>
         <span class="burger__plank"></span>
     </a>
-    <div class="overlay" id="overlay" style="display: none;" >
-        <div class="overlay__menu " id="overlay__menu">
+    <div class="overlay  "   id="overlay" style="display: none;" >
+        <div class="overlay__menu  " id="overlay__menu">
             <nav class="menu  overlay-menu" >
                 <ul class="menu__list  ">
                     <li class="menu__item"> <a href="#" class="menu__link"> О нас</a></li>
