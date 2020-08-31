@@ -16,13 +16,13 @@ function toggleMenu(){
 
 burger.addEventListener('click' , toggleMenu);
 
-burger.addEventListener('click', function () {
-    overlay.style.display === 'none' ? overlay.style.display = 'flex' : overlay.style.display = "none";
-        });
+// burger.addEventListener('click', function () {
+//     overlay.style.display === 'none' ? overlay.style.display = 'flex' : overlay.style.display = "none";
+//         });
 
-        burger.addEventListener('click', function () {
-            overlay.style.display === "flex" ? overlay.style.display = "none" : overlay.style.display = 'flex';
-        });
+//         burger.addEventListener('click', function () {
+//             overlay.style.display === "flex" ? overlay.style.display = "none" : overlay.style.display = 'flex';
+//         });
 
         
       /*   hamburger.addEventListener('click', function () {

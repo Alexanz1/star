@@ -7,7 +7,7 @@
    position: fixed;
    top: 20px;
    right: 20px;
-   z-index:$z-fixed-menu ;
+   z-index: 50 ;
 
     @include tablets {
         display: inline-flex;
